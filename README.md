@@ -14,20 +14,20 @@ The project contains the following data structures:
 The program performs the following operations on each data structure:
 
 ### List Operations
-- **Create a list**: `my_list = [1, 2, 3]`
+- **Create a list**: `my_list`
 - **Add elements**: Adds an element using `.append()`
 - **Remove elements**: Removes an element using `.remove()`
 - **Modify elements**: Directly updates an element by indexing
 
 ### Dictionary Operations
-- **Create a dictionary**: `my_dict = {"name": "Alice", "age": 25}`
+- **Create a dictionary**: `thisdict`
 - **Add key-value pairs**: Adds a new key-value pair by assignment
-- **Remove key-value pairs**: Removes a key-value pair using `.pop()`
+- **Remove key-value pairs**: Removes a key-value pair using `del`
 - **Modify values**: Updates a value by using the key
 
 ### Set Operations
-- **Create a set**: `my_set = {1, 2, 3}`
+- **Create a set**: `my_set`
 - **Add elements**: Adds an element using `.add()`
-- **Remove elements**: Removes an element using `.discard()`
+- **Remove elements**: Removes an element using `.remove()`
 - **Modify elements**: Since sets don’t support item assignment, modification is done by removing and re-adding elements
 
